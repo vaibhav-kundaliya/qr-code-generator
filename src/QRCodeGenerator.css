@@ -1,0 +1,32 @@
+/* QRCodeGenerator.css */
+.qr-code-generator {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .qr-code-input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  
+  .download-button {
+    margin-top: 1rem;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .errorString{
+    color: red;
+  }
